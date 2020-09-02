@@ -156,13 +156,26 @@ First we can find the lines at a distance of 4 from the given line and then it's
 
 \[\textbf{n}=\myvec{-4 \\ 3}\]
 
+The parallel lines must have the same slope but different intercepts. Hence the lines must be of the form:
+
+\begin{align}
+\myvec{4 & 3} \vec{x} = c1 
+\\
+\myvec{4 & 3} \vec{x} = c2
+\end{align}
+
+These c1 and c2 can be easily found by evaluating the distance between the parallel lines:
+\begin{align}
+\frac{(\mid c - 12 \mid)}{\sqrt{4^{2} + 3^{2}}} = 4
+\end{align}
+
 
 The equation of the parallel lines in terms of the given line is then obtained as
 
 \begin{align}
-\myvec{4 & 3} \vec{x} = 12 + \pm\norm{\myvec{3 & 4}}*4
+\myvec{4 & 3} \vec{x} = 12 \pm\norm{\myvec{3 & 4}}4
 \\
-\myvec{4 & 3} \vec{x} = 12 + \pm\sqrt{4^{2} + 3^{2}}*4
+\myvec{4 & 3} \vec{x} = 12 \pm\sqrt{4^{2} + 3^{2}}*4
 \end{align}
 
 The two parallel lines at a distance of 4 thus obtained are:
@@ -177,7 +190,7 @@ Finally the points on x-axis are:
 and 
 \[\vec{x} = -2\]
 
-
+PLOT: 
 \newline
-\includegraphics[width=10cm, height=8cm]{Fig_1}
+\includegraphics[width=10cm,height=8cm]{Figure_1.png}
 \end{document}
